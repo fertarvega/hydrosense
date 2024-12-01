@@ -1,3 +1,10 @@
+import { NavLink } from "react-router";
+import MainLayout from "./components/MainLayout";
+
 export default function App() {
-  return <h1>APP</h1>;
+  return (
+    <MainLayout>
+      <NavLink to="/">Login again</NavLink>
+    </MainLayout>
+  );
 }
