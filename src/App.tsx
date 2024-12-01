@@ -21,7 +21,7 @@ export default function App() {
         <article className="grid grid-cols-[repeat(auto-fill,_minmax(384px,_1fr))] gap-4">
           <Link to="/dashboard">
             <Card
-              title="Tablero de humedad"
+              title="Tablero general"
               subTitle=""
               header={header_1}
               className="md:w-25rem"
@@ -29,7 +29,7 @@ export default function App() {
           </Link>
           <Link to="/detector">
             <Card
-              title="Detección de fugas"
+              title="Flujo de agua"
               subTitle=""
               header={header_2}
               className="md:w-25rem"

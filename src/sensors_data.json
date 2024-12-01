@@ -1,0 +1,64 @@
+{
+    "sensorData": [
+        {
+            "id": 1,
+            "location": "Zona 1",
+            "soilType": "Arcilloso",
+            "humidityLevel": "76%",
+            "status": "Normal",
+            "lastUpdate": "2024-12-01T11:45:00Z",
+            "recommendation": "No es necesario regar, la humedad está dentro del rango adecuado."
+        },
+        {
+            "id": 2,
+            "location": "Zona 2",
+            "soilType": "Arenoso",
+            "humidityLevel": "55%",
+            "status": "Bajo",
+            "lastUpdate": "2024-12-01T11:45:00Z",
+            "recommendation": "Se recomienda regar para mantener un nivel óptimo."
+        },
+        {
+            "id": 3,
+            "location": "Zona 3",
+            "soilType": "Franco",
+            "humidityLevel": "82%",
+            "status": "Alto",
+            "lastUpdate": "2024-12-01T11:45:00Z",
+            "recommendation": "El suelo está saturado, detener riegos adicionales."
+        },
+        {
+            "id": 1,
+            "location": "Zona 4",
+            "soilType": "Arcilloso",
+            "humidityLevel": "76%",
+            "status": "Normal",
+            "lastUpdate": "2024-12-01T11:45:00Z",
+            "recommendation": "No es necesario regar, la humedad está dentro del rango adecuado."
+        },
+        {
+            "id": 2,
+            "location": "Zona 5",
+            "soilType": "Arenoso",
+            "humidityLevel": "15%",
+            "status": "Bajo",
+            "lastUpdate": "2024-12-01T11:45:00Z",
+            "recommendation": "Se recomienda regar para mantener un nivel óptimo."
+        },
+        {
+            "id": 3,
+            "location": "Zona 6",
+            "soilType": "Franco",
+            "humidityLevel": "82%",
+            "status": "Alto",
+            "lastUpdate": "2024-12-01T11:45:00Z",
+            "recommendation": "El suelo está saturado, detener riegos adicionales."
+        }
+    ],
+    "generalInfo": {
+        "averageHumidity": 71,
+        "optimalRange": "60-80",
+        "alerts": 1,
+        "lastSync": "2024-12-01T11:50:00Z"
+    }
+}

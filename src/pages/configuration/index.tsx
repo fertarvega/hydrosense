@@ -21,13 +21,13 @@ function IndexConfiguration() {
     },
     {
       code: "0002",
-      name: "Sensor de temperatura",
+      name: "Sensor de humedad de tierra",
       status: true,
       details: 10,
     },
     {
       code: "0003",
-      name: "Sensor de luz",
+      name: "Sensor de temperatura",
       status: false,
       details: 10,
     },
@@ -46,8 +46,8 @@ function IndexConfiguration() {
   };
 
   const statusBody = (rowData?: any, column?: string) => {
-    if(rowData.status) return <Chip label="🟢 Activo" />
-    return <Chip label="🔴 Desactivado" />
+    if (rowData.status) return <Chip label="🟢 Activo" />;
+    return <Chip label="🔴 Desactivado" />;
   };
 
   return (
@@ -82,7 +82,7 @@ function IndexConfiguration() {
           <Chip label="🍅 Tomate" />
           <div className="flex">
             <Button
-              label="Registrar nuevas plantas"
+              label="Obtener nuevas plantas"
               severity="warning"
               className="mt-4 ml-auto"
             />

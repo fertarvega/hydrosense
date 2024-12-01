@@ -13,8 +13,10 @@ function TableHumidity1({ sensors }: ITableHumidity1) {
       </h1>
       <article className="p-4 flex flex-col gap-4">
         <DataTable value={sensors} tableStyle={{ minWidth: "50rem" }}>
-          <Column field="name" header="Nombre"></Column>
-          <Column field="category" header="Categoría"></Column>
+          <Column field="location" header="Nombre"></Column>
+          <Column field="humidityLevel" header="Nivel de humedad"></Column>
+          <Column field="status" header="Estatus"></Column>
+          <Column field="lastUpdate" header="Hora del registro"></Column>
         </DataTable>
       </article>
     </section>

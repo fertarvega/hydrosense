@@ -52,7 +52,7 @@ const Sidebar = () => {
             <span className="material-icons">
               <img src={reportIcon} alt="report-icon" />
             </span>
-            <span className={`${!isOpen && "hidden"}`}>Tablero de humedad</span>
+            <span className={`${!isOpen && "hidden"}`}>Tablero general</span>
           </li>
         </Link>
         <Link to="/detector">
@@ -60,7 +60,7 @@ const Sidebar = () => {
             <span className="material-icons">
               <img src={dropletIcon} alt="report-icon" />
             </span>
-            <span className={`${!isOpen && "hidden"}`}>Detección de fugas</span>
+            <span className={`${!isOpen && "hidden"}`}>Flujo de agua</span>
           </li>
         </Link>
         <Link to="/configuration">
