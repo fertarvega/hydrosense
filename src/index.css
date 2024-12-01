@@ -2,6 +2,7 @@
 
 /* IMPORTANT: In "styled" mode you must add the PrimeReact Theme here. Do NOT include in "unstyled" mode */
 @import "primereact/resources/themes/lara-light-blue/theme.css";
+@import 'primeicons/primeicons.css';
 
 @layer tailwind-base {
   @tailwind base;
@@ -11,3 +12,6 @@
   @tailwind components;
   @tailwind utilities;
 }
+
+
+        

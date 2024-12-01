@@ -14,7 +14,7 @@ function IndexDetector() {
     { id: "2", name: "Zona 2", condition: "normal" },
     { id: "3", name: "Zona 3", condition: "normal" },
     { id: "4", name: "Zona 4", condition: "normal" },
-    { id: "5", name: "Zona 5", condition: "normal" },
+    { id: "5", name: "Zona 5", condition: "warning" },
     { id: "6", name: "Zona 6", condition: "normal" },
   ]);
 
@@ -35,13 +35,7 @@ function IndexDetector() {
     <MainLayout>
       <h1 className="text-[#4b5563] font-bold text-2xl">Detector de fugas</h1>
       <div
-        style={{
-          display: "grid",
-          flexDirection: "row",
-          gridTemplateColumns: "repeat(3, 1fr)",
-          gap: "10px",
-          // justifyContent: "center",
-        }}
+        className="mt-4 grid grid-cols-3 gap-4"
       >
         {valves.map((valve) => (
           <Valve

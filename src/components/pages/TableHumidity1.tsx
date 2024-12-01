@@ -7,14 +7,16 @@ interface ITableHumidity1 {
 
 function TableHumidity1({ sensors }: ITableHumidity1) {
   return (
-    <section className="p-4 flex flex-col gap-4">
-      <h1 className="text-[#4b5563] font-bold text-xl">
+    <section className="bg-white my-4 border-solid border-1 rounded-b-lg">
+      <h1 className="text-[#fff] bg-gradient-to-r from-[#08415C] to-[#2892D7] font-bold text-xl pl-4 py-2 border-solid border-1 rounded-t-lg">
         Información de los sensores de humedad
       </h1>
-      <DataTable value={sensors} tableStyle={{ minWidth: "50rem" }}>
-        <Column field="name" header="Nombre"></Column>
-        <Column field="category" header="Categoría"></Column>
-      </DataTable>
+      <article className="p-4 flex flex-col gap-4">
+        <DataTable value={sensors} tableStyle={{ minWidth: "50rem" }}>
+          <Column field="name" header="Nombre"></Column>
+          <Column field="category" header="Categoría"></Column>
+        </DataTable>
+      </article>
     </section>
   );
 }
